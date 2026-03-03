@@ -1,0 +1,106 @@
+html
+    head
+        link rel=icon href=favic.png sizes=32x32 type=imagepng      
+        title
+            Путешествия
+        title
+        
+    head
+    BODY
+        style
+                table{
+                    margin-left auto;
+                    margin-right auto;
+                    width 800;
+                    height 250%;
+                }
+                table, td, th{
+                    border 2px solid gray;
+                }
+                td{
+                    padding 2px;
+                    text-align left;
+                }
+                th{
+                    padding 2px;
+                    text-align left;
+                }
+                h1{
+                    font 20px;
+                    color gray;
+                }
+                p{
+                    font20px;
+                    color gray;
+                }                
+
+            style
+        h1ПУТЕШЕСТВИЯh1
+        
+        pНавигация по блокам с якорямиp
+        nav
+            
+            a href=#1Название страныa 
+            a href=#2Картаa 
+            a href=#3Погодаa 
+            a href=#4О насa 
+            a href=#5Обратная связьa 
+            a href=#6FAQa
+        nav
+        
+        table
+            tr
+                td  
+                    h1 id=1НАЗВАНИЕ СТРАНЫh1
+
+                    pблок &lt;header&gt; p
+                    pстили для заголовков h1, h2, h3p
+                    
+                td
+            tr
+            header header
+            tr
+                td
+                    
+                    h1 id=2Карта регионовh1
+                    pКликабельное svg-изображение с возможностью выбораp
+                    p+ анимация + мобилкаp
+                    
+                    
+                    
+                    
+                td
+            tr
+            tr
+                td
+                    h1 id=3Погодаh1
+                    pЖелательно на карте, либо прогноз по регионамгородамp
+                    pБлок с min-heightp
+                td
+            tr
+            tr
+                td
+                    h1 id=4О нас о странеh1
+                    pБлок с цифрами, тезисноp
+                    pСтили с displayflexp
+                td
+            tr
+            tr
+                td
+                    h1 id=5Форма обратной связи задать вопросh1
+                    pФорма для ввода и отправки текстаp
+                    pСтили элементов управленияp
+                td
+            tr
+            tr
+                td
+                    h1 id=6FAQh1
+                    pРаскрывающие поляp
+                    pОбработка раскрывашекp
+                td
+            tr
+            
+        table
+        footerКонтакты +71234567890footer
+    BODY
+html
